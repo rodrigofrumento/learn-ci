@@ -1,0 +1,33 @@
+{
+  "name": "todo",
+  "version": "1.0.0",
+  "description": "todo backend to learn ci/cd",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rodrigofrumento/learn-ci.git"
+  },
+  "keywords": [
+    "ci",
+    "cd",
+    "backend",
+    "node"
+  ],
+  "author": "Rodrigo Frumento",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rodrigofrumento/learn-ci/issues"
+  },
+  "homepage": "https://github.com/rodrigofrumento/learn-ci#readme",
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^7.0.0"
+  }
+}
